@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    margin-bottom: 10px;
+    color: white;
+    padding: 0 10px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link > a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 12px;
+}
+.link > a:hover{
+    color: gray;
+    text-decoration: none;
+}
+#logo {
+    font-family: 'Poller One', cursive;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+#drop-down{
+    width: 50px;
+}
+#store-description-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#has-logo{
+    width: 40%;
+    min-width: 375px;
+}
+#store-description{
+    width: 40%;
+    min-width: 375px
+}
+#antiques-links{
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+#owners-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#owner-image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3{
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#owner-one, #owner-two, #owner-three{
+    width: 106px;
+    height: 106px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+#quote{
+    margin: 50px auto;
+}
+h2, h6{
+    text-align: center;
+}
+.icon{
+    width: 30px;
+    margin: 0 20px;
+}
+#social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-text{
+    color: #AF6868;
+}
